@@ -56,12 +56,18 @@ The models were evaluated using the **F1-score**, which is the official metric f
 
 • [DeBERTa_Inference.ipynb](DeBERTa_Inference.ipynb) — Tokenization, data parsing and inference for DeBERTa  
   - key symbols: [`parse_data`](DeBERTa_Inference.ipynb), [`tokenizer`](DeBERTa_Inference.ipynb)
-• [LSTM_Training.ipynb](LSTM_Training.ipynb) — BiLSTM training and evaluation experiments  
+
+• [LSTM_Training.ipynb](LSTM_Training.ipynb) 
+  — BiLSTM training and evaluation experiments  
   - key symbol: [`label_map`](LSTM_Training.ipynb)
+
 • [LSTM_Inference.ipynb](LSTM_Inference.ipynb) — Data parsing and GloVe embedding loading for BiLSTM  
   - key symbols: [`parse_data`](LSTM_Inference.ipynb), [`load_glove_embeddings`](LSTM_Inference.ipynb)
+
 • [requirements.txt](requirements.txt) — Python package dependencies
+
 • [readme.txt](readme.txt) — external resources and notes
+
 • [README.md](README.md) — this file
 
 ## Quick start
