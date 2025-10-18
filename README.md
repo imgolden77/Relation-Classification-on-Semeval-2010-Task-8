@@ -2,6 +2,7 @@
 
 ## 📝 Project Summary
 Contributors: Juha Im, Abhishek Das, Nazrin Babayeva
+
 This project investigates and compares the performance of two distinct deep learning architectures, **DeBERTa (Transformer-based)** and **Attention-based BiLSTM (Recurrent)**, for the task of **Relation Extraction (RE)**. The goal is to classify semantic relationships between pairs of nominals within text. The comparative analysis provides insight into the suitability of transformer versus recurrent architectures for structured information retrieval in NLP.
 
 ## 🎯 Task & Dataset
