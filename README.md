@@ -84,16 +84,3 @@ jupyter notebook
 • Each notebook includes sections for data parsing, preprocessing, dataloader construction, training, and evaluation.
 • The DeBERTa notebooks include tokenizer customization and entity-marker handling (`[`tokenizer`](DeBERTa_Inference.ipynb)`).
 • The LSTM notebooks include an example of loading pretrained GloVe embeddings (`[`load_glove_embeddings`](LSTM_Inference.ipynb)`).
-
-## Results and logs
-• Training metrics (loss, accuracy, F1) and evaluation outputs are recorded in notebook cells. Check the output cells in each notebook for experiment logs.
-
-## Environment
-• Dev container: Ubuntu 24.04.2 LTS
-• Notebooks can be run in Colab if GPU acceleration is needed.
-
-## Contributing
-• Fork the repository, update notebooks or requirements, and submit a pull request.
-
-## License
-• No license is specified. Use for research or personal experimentation unless otherwise noted.
