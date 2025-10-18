@@ -4,6 +4,7 @@ This repository compares the performance of DeBERTa (Transformer-based) and a Bi
 
 ## Summary
 NLP Group project contributor: Juha Im, Abhishek Das, Nazrin Babayeva
+
 •	Investigated the comparative effectiveness of DeBERTa (transformer-based) and BiLSTM (recurrent model).
 •	Implemented an entity-aware representation strategy (RDEBERTa) achieving an F1-score of 0.80 
 •	Developed Attention based BiLSTM with pretrained word embedding, resulting in a 67.5% increase in F1 score.
