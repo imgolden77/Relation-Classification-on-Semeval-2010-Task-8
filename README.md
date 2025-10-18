@@ -1,8 +1,8 @@
-# Relation-Classification-on-Semeval-2010-Task-8
+## Relation-Classification-on-Semeval-2010-Task-8
 
 This repository compares the performance of DeBERTa (Transformer-based) and a BiLSTM (recurrent) model on the SemEval-2010 Task 8 relation classification dataset. It contains Jupyter notebooks for training and inference for both model types, helper notes, and dependency specifications.
 
-Repository structure
+# Repository structure
 - [DeBERTa_Training.ipynb](DeBERTa_Training.ipynb) — DeBERTa training and evaluation experiments
 - [DeBERTa_Inference.ipynb](DeBERTa_Inference.ipynb) — Tokenization, data parsing and inference for DeBERTa  
   - key symbols: [`parse_data`](DeBERTa_Inference.ipynb), [`tokenizer`](DeBERTa_Inference.ipynb)
@@ -14,7 +14,7 @@ Repository structure
 - [readme.txt](readme.txt) — external resources and notes
 - [README.md](README.md) — this file
 
-Quick start
+# Quick start
 1. Install dependencies:
 ```sh
 pip install -r [requirements.txt](requirements.txt)
@@ -31,15 +31,15 @@ jupyter notebook
    - Train and evaluate using the training notebooks
    - Run inference notebooks for predictions
 
-Notes
+# Notes
 - Each notebook includes sections for data parsing, preprocessing, dataloader construction, training, and evaluation.
 - The DeBERTa notebooks include tokenizer customization and entity-marker handling (`[`tokenizer`](DeBERTa_Inference.ipynb)`).
 - The LSTM notebooks include an example of loading pretrained GloVe embeddings (`[`load_glove_embeddings`](LSTM_Inference.ipynb)`).
 
-Results and logs
+# Results and logs
 - Training metrics (loss, accuracy, F1) and evaluation outputs are recorded in notebook cells. Check the output cells in each notebook for experiment logs.
 
-Environment
+# Environment
 - Dev container: Ubuntu 24.04.2 LTS
 - Notebooks can be run in Colab if GPU acceleration is needed.
 
